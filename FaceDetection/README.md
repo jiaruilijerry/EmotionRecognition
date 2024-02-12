@@ -36,4 +36,13 @@ os.chdir('detr')
 ```
 This will clone the DETR repository at a specific commit in the colab’s notebook environment.  
 
-
+## Step 4:
+Training the model  
+Training the model is quite simple. DETR already has the training code written for you in main.py. Run this command line:  
+```
+!python main.py --coco_path './data' --epochs 2 --batch_size 3 --resume 'https://dl.fbaipublicfiles.com/detr/detr-r50-e632da11.pth' --output_dir './ckpts'
+```
+This will retrain the model starting from the pretrained weights (--resume).  
+The new weights will be saved in ./ckpts  
+Each epoch of training takes about 3 hours on Colab. You can play with different epochs and batch_size.
+After this, you can start training from your checkpoints.
