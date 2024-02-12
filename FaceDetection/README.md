@@ -1,3 +1,7 @@
+# Credits
+
+This project uses DETR (DEtection TRansformer) developed by Facebook Research. We acknowledge and are grateful to Facebook Research for their contributions to the field of object detection and machine learning. For more information about DETR, visit the [official GitHub repository](https://github.com/facebookresearch/detr).
+
 # The steps to run the face detection model:
 
 ## Step 1:
