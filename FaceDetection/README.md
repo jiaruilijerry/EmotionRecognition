@@ -1,7 +1,7 @@
 # The steps to run the face detection model:
 
 ## Step 1:
-Download and Unzip WIDER Face Dataset
+Download and Unzip WIDER Face Dataset  
 In a new code cell, run the following to download WIDER Face dataset from Google Drive links:
 
 ```
@@ -10,7 +10,7 @@ In a new code cell, run the following to download WIDER Face dataset from Google
 !gdown --id 1rkUK6OG7js5gYt1bhCUanPNqmuxwkVZX
 ```
 
-You will have downloaded 2 zip files, WIDER_val.zip and WIDER_train.zip
+You will have downloaded 2 zip files, WIDER_val.zip and WIDER_train.zip  
 Unzip the files to ./data:
 
 ```
