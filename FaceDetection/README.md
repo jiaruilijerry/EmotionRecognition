@@ -19,3 +19,4 @@ Unzip the files to ./data:
 ```
 
 ## Step 2:
+Unzip the wider_face_split.zip, this is the annotation files for dataset
